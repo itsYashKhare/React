@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   let obj ={
-    username:"Yash",
+    username:"hello",
     age:21
   }
   
@@ -18,7 +18,7 @@ function App() {
     <>
       <h1 className='bg-green-400 text-black p-4 rounded-xl m-5 mb-4'>Tailwind</h1>
       <Card username ="Code with me"  btnText ="click me"  />
-      <Card username="Yash" />
+      <Card username="Hello" />
     </>
   )
 }
